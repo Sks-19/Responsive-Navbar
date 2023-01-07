@@ -1,0 +1,21 @@
+.btn-group ul {
+  list-style-type: none;
+}
+
+.dropdownLarge {
+  display: block;
+}
+
+.dropdownSmall {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .dropdownLarge {
+    display: none;
+  }
+
+  .dropdownSmall {
+    display: block;
+  }
+}
